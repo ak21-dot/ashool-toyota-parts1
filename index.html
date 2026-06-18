@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="theme-color" content="#1a1a2e">
+  <link rel="manifest" href="manifest.json">
+  <link rel="stylesheet" href="style.css">
+  <title>طيب علي الأشول – قطع غيار تويوتا</title>
+</head>
+<body>
+<div class="topbar">
+  <div>
+    <h1>🚗 <span class="gold">طيب علي الأشول</span></h1>
+    <div class="sub">قطع غيار تويوتا | نظام محاسبي</div>
+  </div>
+  <div style="text-align:left;">
+    <div id="userBadge" style="font-size:13px;"></div>
+    <button class="btn btn-sm btn-outline" style="color:#fff;border-color:#fff;" onclick="logout()">خروج</button>
+  </div>
+</div>
+<div class="container" id="app"></div>
+<div class="toast" id="toast"></div>
+
+<script src="https://unpkg.com/jspdf/dist/jspdf.umd.min.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
